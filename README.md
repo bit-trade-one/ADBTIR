@@ -5,17 +5,18 @@
 
 ## 目次
 
-### [使用用途・参照項目]()
+### [使用用途・参照項目](#使用用途参照項目-1)
 
-### [1.USB接続受信ツール使用方法]()  
-- [ダウンロード]()
-- [使用方法]()
+### [1.USB接続受信ツール使用方法](#1usb接続受信ツール使用方法-1)  
+- [ダウンロード](#usb接続受信ツールダウンロード)
+- [使用方法](#使用方法)
+- [ファームウェアアップデート方法](#ファームウェアアップデート方法)
 
-### [2.Bluetooth動作確認アプリ使用方法](#Bluetooth動作確認アプリ使用方法)
+### [2.Bluetooth動作確認アプリ使用方法](#2bluetooth動作確認アプリ使用方法-1)
 
-### [3.BluetoothBLE接続方法]()
+### [3.BluetoothBLE接続方法](#3bluetoothble接続方法-1)
 
-### [4.ADBTIR-Bluetooth通信仕様]()
+### [4.ADBTIR-Bluetooth通信仕様](#4adbtir-bluetooth通信仕様-1)
 
 
 ---
@@ -27,18 +28,18 @@
         alt="ADBTIR系統図" width="800px">   
 
 - USB接続で受信ツールを用いた赤外線受信信号の記録・送信  
-   - [1.USB接続受信ツール使用方法]()  
+   - [1.USB接続受信ツール使用方法](#1usb接続受信ツール使用方法-1)    
     
 - Bluetooth動作確認アプリ・お客様の自作アプリを用いたBluetoothトリガによる赤外線信号制御  
-   - [2.Bluetooth動作確認アプリ使用方法]()  
-   - [（1.USB接続受信ツール使用方法(赤外線信号の本体記憶))]()  
+   - [2.Bluetooth動作確認アプリ使用方法](#2bluetooth動作確認アプリ使用方法-1) 
+   - [（1.USB接続受信ツール使用方法(赤外線信号の本体記憶))](#1usb接続受信ツール使用方法-1)   
    - [4.ADBTIR-Bluetooth通信仕様]()
 
 
 - BluetoothBLT接続によるお客様の自作アプリからの赤外線信号制御
-   - [3.BluetoothBLE接続方法]()  
-   - [(1.USB接続受信ツール使用方法(赤外線信号の本体記憶))]()
-   - [4.ADBTIR-Bluetooth通信仕様]()
+   - [3.BluetoothBLE接続方法](#3bluetoothble接続方法-1) 
+   - [(1.USB接続受信ツール使用方法(赤外線信号の本体記憶))](#1usb接続受信ツール使用方法-1)  
+   - [4.ADBTIR-Bluetooth通信仕様](#4adbtir-bluetooth通信仕様-1)
 
 
 
@@ -48,7 +49,7 @@
 赤外線信号記憶・送信テストが可能です。  
 ダウンロード・展開してお使いください。  
   
-・設定ツールv100 __[【クリックでダウンロード】](ここにURLを入力)__
+・設定ツールv100 __[【クリックでダウンロード】](https://github.com/bit-trade-one/ADBTIR/releases/download/V1/ADBTIR_BT_IR_Adapter_Recv_CT.exe)__
   
 ---
 
@@ -100,9 +101,11 @@ ADBTIRをPCと接続すると操作できるようになります。
 
 # 2.Bluetooth動作確認アプリ使用方法
  
- ■準備  
+ ### ダウンロード・準備  
 
-  1.ADBTIR_BTIRAdapter.exeを起動します。
+  1.ADBTIR_BTIRAdapter.exeをダウンロード・起動します。
+
+  ADBTIR_BTIRAdapter.exe __[【クリックでダウンロード】](https://github.com/bit-trade-one/ADBTIR/releases/download/V1/ADBTIR_BTIRAdapter.exe)__
 
   2 Bluetooth接続を行います。  
     PCと本機器のBluetoothペアリングを済ませた上で  左側の接続項目のPortNo.にてCOMポート番号を選択します。  
@@ -111,15 +114,15 @@ ADBTIRをPCと接続すると操作できるようになります。
    ![picture 3](images/23483f9e7d07415c0bdf3ae4e24d2d6191b179bfa9883470145ce9e500aa7fa3.png)  
 
 
-A.本体に保存されている赤外線データの送信手順  
+### A.本体に保存されている赤外線データの送信手順  
   ADBTIR_BT_IR_Adapter_Recv_CT.exe等で本体に保存した赤外線信号を送信できます。  
-  記憶させる方法は[1.USB接続受信ツール使用方法]()を参照してください。  
+  記憶させる方法は[1.USB接続受信ツール使用方法](#1usb接続受信ツール使用方法-1)を参照してください。  
 
   1 赤外線送信より、赤外線送信No.を選び、送信コマンドを押すと送信できます。
   ![picture 4](images/66a1d8a0ee271be15f0262292b610ec3a5fd5f37013ff4d718bb13fd5f17b9aa.png)  
 
 
-B.赤外線データの書き込み&送信手順
+### B.赤外線データの書き込み&送信手順
 
   1 赤外線データを準備します。  
   ADBTIR_BT_IR_Adapter_Recv_CT.exe(受信ツール,USB接続で通信)を起動し、赤外線データを取得します。  
@@ -135,19 +138,19 @@ B.赤外線データの書き込み&送信手順
    No.の選択、送信コマンドを押します。
    ![picture 7](images/e89eaf71231f597d6f853788437e6fef42df49c2a8eb753a9ed71be5116d392f.png)  
 
-C.赤外線データの本体保存手順  
+### C.赤外線データの本体保存手順  
   1 赤外線データを準備します。 (B-1参照)   
   2 右側の赤外線データ書き込み＆ 送信/保存から1.でコピーした赤外線データを貼り付けてください。  
   No.の選択、保存コマンドを押すと書き込みが完了します。  
   ![picture 9](images/86e7ccc8a2dbdb1976788883e5a2fc22affcffbfee1ab281ac04e0735287d40c.png)  
 
 
-D.コマンド作成
+### D.コマンド作成
 書き込まれた赤外線情報をもとに各種コマンドを書き出すことができます。
 アプリ開発の際などにご利用ください。
 ![picture 10](images/d3e9b81eb1f61df76961849eacdf0ed443536b685c4141aec30972957ca5800d.png)  
 
-詳細につきまして[4.Bluetooth通信仕様]()もご確認ください。
+詳細につきまして[4.Bluetooth通信仕様](#4adbtir-bluetooth通信仕様-1)もご確認ください。
 
 ---
 
@@ -170,13 +173,13 @@ D.コマンド作成
 <img src="images/869ecccc50dea8d96ab4278c2a62551b698634ba3823fc85aa85b49bfa9ab761.png"
         alt="picture 23" width="320px">  
 
-詳細につきまして[4.Bluetooth通信仕様]()もご確認ください。
+詳細につきまして[4.Bluetooth通信仕様](#4adbtir-bluetooth通信仕様-1)もご確認ください。
 
 ---
-### 4.ADBTIR-Bluetooth通信仕様
+# 4.ADBTIR-Bluetooth通信仕様
 
 以下からご確認いただけます。  
-[ADBTIR-Bluetooth通信仕様(PDF)](ここにURLを入力)
+[ADBTIR-Bluetooth通信仕様(PDF)](https://github.com/bit-trade-one/ADBTIR/blob/main/Documents/ADBTIR%E9%80%9A%E4%BF%A1%E4%BB%95%E6%A7%98R01_20230728.pdf)
 
 ---
 
