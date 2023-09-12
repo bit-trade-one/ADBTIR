@@ -45,7 +45,7 @@
 - Bluetooth動作確認アプリ・お客様の自作アプリを用いたBluetoothトリガによる赤外線信号制御  
    - [2.Bluetooth動作確認アプリ使用方法](#2bluetooth動作確認アプリ使用方法-1) 
    - [（1.USB接続受信ツール使用方法(赤外線信号の本体記憶))](#1usb接続受信ツール使用方法-1)   
-   - [4.ADBTIR-Bluetooth通信仕様]()
+   - [4.ADBTIR-Bluetooth通信仕様](#4adbtir-bluetooth通信仕様-1)
 
 
 - BluetoothBLT接続によるお客様の自作アプリからの赤外線信号制御
