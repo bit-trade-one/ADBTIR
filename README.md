@@ -59,7 +59,7 @@
 
 ## USB接続受信ツールダウンロード
 赤外線信号記憶・送信テストが可能です。  
-ダウンロード・展開してお使いください。  
+ダウンロードしてお使いください。  
   
 ・設定ツールv100 __[【クリックでダウンロード】](https://github.com/bit-trade-one/ADBTIR/releases/download/V1/ADBTIR_BT_IR_Adapter_Recv_CT.exe)__
   
@@ -194,6 +194,7 @@ ADBTIRをPCと接続すると操作できるようになります。
 [ADBTIR-Bluetooth通信仕様(PDF)](https://github.com/bit-trade-one/ADBTIR/blob/main/Documents/ADBTIR%E9%80%9A%E4%BF%A1%E4%BB%95%E6%A7%98R01_20230728.pdf)
 
 ---
+[(ADBTIR-GitHub)](https://github.com/bit-trade-one/ADBTIR/tree/main)
 
 ![image](https://github.com/bit-trade-one/ADBTIR/assets/85532743/b1a6d059-242d-46f7-a35d-6133a5279c1b)
 
