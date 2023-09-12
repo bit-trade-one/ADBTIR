@@ -195,3 +195,8 @@ ADBTIRをPCと接続すると操作できるようになります。
 
 ---
 
+![image](https://github.com/bit-trade-one/ADBTIR/assets/85532743/b1a6d059-242d-46f7-a35d-6133a5279c1b)
+
+
+Copyright ©  2023 Bit Trade One, LTD. All rights reserved.
+
